@@ -1,0 +1,3 @@
+# Failure mode taxonomy
+
+**Shortcut learning:** models exploit portable markers, scanner tokens, positioning, age, or hospital-specific artifacts instead of pathology. **Data leakage:** related images or patients in both training and test partitions. **Shift:** institutions, manufacturers, reconstruction algorithms, prevalence, protocols, or labeling policy change. **False certainty:** sigmoid scores do not equal calibrated medical probability. **Grounding errors:** generated sentences are unsupported by the image. **Spatial errors:** incorrect orientation or voxel spacing produces misleading lesion volumes and overlays. Evaluate all these before any clinical translation.
