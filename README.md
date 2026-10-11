@@ -107,6 +107,10 @@ assets/workflow.svg
 
 [Documentation index](docs/README.md) · [Data](docs/data/README.md) · [Models](docs/models/README.md) · [Training](docs/training/README.md) · [Geometry](docs/geometry/README.md) · [Explainability](docs/explainability/README.md) · [Reports](docs/reports/README.md) · [Evaluation](docs/evaluation/README.md) · [Safety](docs/safety/README.md) · [Ethics](docs/ethics/README.md) · [Research roadmap](docs/research/README.md) · [Notebooks](notebooks/README.md)
 
+## Research methods handbook
+
+The [research handbook](docs/handbook/01_research_question.md) contains focused study notes on cohort design, leakage prevention, volumetric geometry, model assumptions, and quality assurance. Each note separates scientific motivation from implemented results.
+
 ## Professional research agenda: imaging × mathematics × geometry
 
 - **Multiscale Riemannian geometry:** robust physical-coordinate registration, volumetric manifolds and curvature-aware representations.
