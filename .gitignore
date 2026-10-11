@@ -1,0 +1,17 @@
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.venv/
+*.pyc
+data/
+datasets/
+checkpoints/
+outputs/
+runs/
+*.dcm
+*.nii
+*.nii.gz
+*.pth
+*.pt
+.env
+.ipynb_checkpoints/
