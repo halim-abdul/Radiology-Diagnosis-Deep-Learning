@@ -1,0 +1,9 @@
+seed: 42
+image_size: 224
+batch_size: 16
+split:
+  validation: 0.15
+  test: 0.15
+patient_group_column: patient_id
+manifest: data/manifest.csv
+note: "Patient-disjoint splits and leakage checks required."
