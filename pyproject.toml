@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68","wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "radiology-research"
+version = "0.1.0"
+description = "Reproducible radiology deep learning research toolkit; not for clinical use"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24","pandas>=2.0","Pillow>=10","torch>=2.2","torchvision>=0.17","scikit-learn>=1.3","matplotlib>=3.7","PyYAML>=6","tqdm>=4.66"]
+[project.optional-dependencies]
+medical = ["pydicom>=2.4","nibabel>=5.1","SimpleITK>=2.3","monai>=1.3"]
+models = ["timm>=1.0","transformers>=4.40"]
+explain = ["captum>=0.7"]
+test = ["pytest>=8","ruff>=0.6"]
+[project.scripts]
+radiology-train = "radiology.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.ruff]
+line-length = 100
